@@ -1,4 +1,4 @@
-This repo is the content used in the paper entitled "PathInHydro, a set of machine learning models to identify unbinding pathways of gas molecules in [NiFe] hydrogenases" by Farzin Sohraby, Jingyao Guo, Ariane Nunes-Alves.
+This repo is the content used in the paper entitled "PathInHydro, a set of machine learning models to identify unbinding pathways of gas molecules in [NiFe] hydrogenases" by Farzin Sohraby, Jing-yao Guo, Ariane Nunes-Alves.
 
 Here you can find a description of the datasets and the codes used to train and evaluate 2 machine learning models for predicting unbinding pathways of ligands in complex with [NiFe] hydrogenases.
 
