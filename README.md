@@ -30,3 +30,7 @@ Jupyter notebooks: containing the python codes for visualization of data distrib
 6- Training-Test-Binary-Model.ipynb: containing the code for training and testing the binary model, then generating the figures in the paper (ROC curve and Confusion Matrix).
 
 7- Training-Test-MultiClass-Model.ipynb: containing the code for training and testing the multiclass model, then generating the figures in the paper (Confusion Matrix).
+
+
+You can install the required packages using the PathInHydro.yml file:
+"conda env create -f PathInHydro.yml"
