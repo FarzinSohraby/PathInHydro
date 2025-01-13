@@ -4,6 +4,7 @@ Here you can find a description of the datasets and the codes used to train and 
 
 ![up](https://github.com/FarzinSohraby/PathInHydro/assets/172061891/6db3344c-2e1e-430c-bd40-5fd1c12c119c)
 
+![GA](https://github.com/user-attachments/assets/700812fc-95ba-4659-ba41-d91a292c7ef0)
 
 Datasets: there are a total 4 data sets, each containing labels (designated unbinding paths) and features (ligand-residue contacts) collected from a set of simulations:
 
