@@ -34,6 +34,14 @@ Jupyter notebooks: containing the python codes for visualization of data distrib
 7- Training_Test_MultiClass_Model.ipynb: containing the code for training and testing the multiclass model, then generating the figures in the paper (Confusion Matrix).
 
 
-You can install the required packages using the PathInHydro.yml file:
+You can install the required packages using the PathInHydro.yml file to reproduce the results in the paper (https://pubs.acs.org/doi/10.1021/acs.jcim.4c01656):
 
 "conda env create -f PathInHydro.yml"
+
+
+Sample Python codes used to calculate pairwise contacts between ligands and the residues and then the preparation of the datasets:
+1- Pairwize-contacts.py: Calculates the number of contacts between the gas molecules (ligand) and each residue of the protein in each frame of the trajectory and saving them in a csv file.
+2- reads-all-CSVs-row-contacts.py: reads all the csv file produced via the previous code and then counts the number of frames with non-zero values for each residue.
+3- normalize.py: normalize the data for each residue based on the number of frames of each trajectory.
+
+A sample trajectory (NewHyd-WT-O2-TauRAMD-Rep1-pbc-fit-1-TIT.xtc) and a gro file (NewHyd-WT-O2-SR-20ns.gro) is available.
