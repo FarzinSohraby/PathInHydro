@@ -44,4 +44,4 @@ Sample Python codes used to calculate pairwise contacts between ligands and the 
 2- reads-all-CSVs-row-contacts.py: reads all the csv file produced via the previous code and then counts the number of frames with non-zero values for each residue.
 3- normalize.py: normalize the data for each residue based on the number of frames of each trajectory.
 
-A sample trajectory (NewHyd-WT-O2-TauRAMD-Rep1-pbc-fit-1-TIT.xtc) and a gro file (NewHyd-WT-O2-SR-20ns.gro) is available.
+A sample trajectory (NewHyd-WT-O2-TauRAMD-Rep6-pbc-fit-11-TIT.xtc) and a gro file (NewHyd-WT-O2-SR-20ns.gro) is available.
